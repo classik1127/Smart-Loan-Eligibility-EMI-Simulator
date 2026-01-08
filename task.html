@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loan Eligibility Simulator</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Loan Eligibility Simulator</h1>
+
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="number" id="income" placeholder="Monthly Income">
+    <input type="number" id="loan" placeholder="Loan Amount">
+    <input type="number" id="years" placeholder="Duration (years)">
+
+    <div class="radio-group">
+      <label><input type="radio" name="job" id="student"> Student</label>
+      <label><input type="radio" name="job" id="worker"> Worker</label>
+    </div>
+
+    <button id="btn">Check Eligibility</button>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="task.js"></script>
+</body>
+</html>
